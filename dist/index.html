@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/logo.png" />
+    <link href="./output.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="The Front-end web developement portfolio of Justas Gecevicius" />
+    <title>Justas Gecevicius Portfolio</title>
+    <script defer src="main.js" type="module"></script>
+  </head>
+  <body class="text-white bg-black_blue">
+    <header class='fixed z-10 flex flex-row justify-between w-screen px-5 py-2 max-h-14 bg-black_blue'>
+      <a href="#welcome">
+        <h1 class="max-w-[100px] text-blue font-bold text-nowrap text-2xl">JG</h1>
+      </a>
+      <div class='flex flex-row gap-x-5 md:pr-4'>
+        <a class="flex items-center font-bold text-blue" href="#projects">
+          Projects
+        </a>
+        <button class="font-bold text-blue">
+          Contacts
+        </button>
+      </div>
+    </header>
+    <section class="flex-col justify-center h-screen px-4" id="welcome">
+      <div class="flex-row gap-4">
+        <h1 class="inline font-bold text-8xl">
+          Hi I'm <span class="font-bold text-light_blue">Justas</span>
+        </h1>
+      </div>
+      <h3 class="text-2xl ">A Front-end Web developer</h3>
+    </section>
+    <section class="h-screen" id="about">
+      <div class="flex-col items-center">
+        <p class='text-lg text-center max-w-prose text-white_blue md:text-xl'>
+          Intro
+        </p>
+        <h2 class='text-3xl font-bold text-center max-w-prose md:text-4xl'>
+          About Me
+        </h2>
+        <div class='mt-4 text-justify max-w-prose md:text-lg'>
+          I am a <span class='italic text-blue'>Dedicated and Inquisitive</span>
+          Front-end Developer. With the expert guidance of several Software and
+          Front-end Development professionals I have managed to progress swiftly and
+          understand the market standards for writing
+          <span class='italic text-blue'>Clean and Professional code.</span>
+          <br /> <br />I got hooked on coding from the moment I picked up an Arduino
+          kit. The fact that the code I wrote made real world changes seemed
+          fascinating to me. This is the reasson why I got drawn to Front-end
+          development as well. The changes made to the code appeared on the screen
+          instantly and provided instant feedback. This
+          <span class='italic text-blue'> gets me Inspired</span> every single
+          time to <span class='italic text-blue'>Explore new Possibilities</span>.
+          <br /> <br />
+          For all of my skills click <span class='italic text-blue'>
+            Resume
+          </span>
+          and for all of my latest projects click
+          <span class='italic text-blue'> Projects</span>. Feel free to explore my
+          <span class='italic text-blue'>Github</span> or contact me using the
+          <span class='italic'> contacts page.</span>
+        </div>
+        <div class='flex flex-row items-center justify-center w-full mt-4'>
+          <button type='button'>
+            <p class='text-blue md:text-lg hover:text-white_blue'>
+              Click Here for a Resume!
+            </p>
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="h-screen" id="competencies">
+      
+    </section>
+    <section id="projects">
+      <div class='flex flex-col min-h-full p-4 overflow-x-hidden grow md:p-10'>
+        <h2 class='text-lg text-center md:text-xl text-white_blue'>Projects</h2>
+        <div class='pt-2'>
+          <div class='pt-2 md:pt-8'>
+            <!-- Main Projects -->
+            <h3 class='text-3xl font-semibold text-center md:text-5xl'>
+              Main Projects
+            </h3>
+            <div class='[&>*:nth-child(odd)]:md:flex-row-reverse'>
+              <!-- Big Project #1 -->
+              <div class='flex flex-col items-center pt-4 h-fit md:flex-row md:gap-x-8 md:pt-10'>
+                <img
+                  src="../../assets\filmLibraryImage.avif"
+                  alt='Project Image'
+                  class='rounded-lg md:grow md:basis-0 md:h-full md:w-48'
+                />
+                <div class='pt-2 h-fit md:grow md:basis-0 md:pt-0'>
+                  <h3 class='pt-4 text-2xl text-center md:text-3xl'>Film Library</h3>
+                  <div class='pt-2 h-fit md:pt-4'>
+                    <p class='text-justify md:text-xl'>
+                      This is the most complex project I have done to date. It uses The Movie DB’s API for all the movie information and combines it with firebase to store all user data. The main purpose of this project was to teach me Typescript, React-Query, Project Structure and Custom Hooks. The live version of the website is fully functional. You can also visit the GitHub repository below
+                    </p>
+                    <h4 class='pt-2 text-lg font-semibold text-center md:text-xl md:pt-4'>
+                      Technologies Used
+                    </h4>
+                    <ul class='pt-2 text-center md:pt-4'>
+                      <li>React</li>
+                      <li>Typescript</li>
+                      <li>ReactQuery</li>
+                      <li>The Movie DB API</li>
+                      <li>Firebase</li>
+                    </ul>
+                  </div>
+                  <div class='flex flex-row justify-center pt-2 gap-x-2 md:pt-4'>
+                    <a href="https://justasgecevicius.github.io/Film-Library/" target='_b' class='h-full'>
+                      <button class='h-12 text-lg md:text-xl'>Visit Website</button>
+                    </a>
+                    <a href="https://github.com/JustasGecevicius/Film-Library" target='_b' class='h-full'>
+                      <button class='h-12 p-0 px-2 hover:scale-125'>
+                        <img src="../../assets/github-white.svg" alt='zeba' class='h-2/3 aspect-square' />
+                      </button>
+                    </a>
+                  </div>
+                  <p class='w-full mt-4 mb-2 border-b-2 border-white border-solid rounded-full md:hidden'></p>
+                </div>
+              </div>
+              <!-- Big Project #2 -->
+              <div class='flex flex-col items-center pt-4 h-fit md:flex-row md:gap-x-8 md:pt-10'>
+                <img
+                  src="../assets\ecommerce.png"
+                  alt='EcommerceImage'
+                  class='rounded-lg md:grow md:basis-0 md:h-full md:w-48'
+                />
+                <div class='pt-2 h-fit md:grow md:basis-0 md:pt-0'>
+                  <h3 class='pt-4 text-2xl text-center md:text-3xl'>E-Commerce Website</h3>
+                  <div class='pt-2 h-fit md:pt-4'>
+                    <p class='text-justify md:text-xl'>
+                      So far this is one of my biggest projects, I started this project to teach myself react-router-dom, state management, state uplifting and several other React Concepts. For a more in-depth explanation visit the Repository
+                    </p>
+                    <h4 class='pt-2 text-lg font-semibold text-center md:text-xl md:pt-4'>
+                      Technologies Used
+                    </h4>
+                    <ul class='pt-2 text-center md:pt-4'>
+                      <li>React</li>
+                      <li>Firebase</li>
+                    </ul>
+                  </div>
+                  <div class='flex flex-row justify-center pt-2 gap-x-2 md:pt-4'>
+                    <a href="https://justasgecevicius.github.io/e-commerce-shop/" target='_b' class='h-full'>
+                      <button class='h-12 text-lg md:text-xl'>Visit Website</button>
+                    </a>
+                    <a href="https://github.com/JustasGecevicius/e-commerce-shop" target='_b' class='h-full'>
+                      <button class='h-12 p-0 px-2 hover:scale-125'>
+                        <img src="../assets/github-white.svg" alt='zeba' class='h-2/3 aspect-square' />
+                      </button>
+                    </a>
+                  </div>
+                  <p class='w-full mt-4 mb-2 border-b-2 border-white border-solid rounded-full md:hidden'></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="small_projects" class="h-screen ">
+      <div class='pt-4'>
+        <h3 class='text-3xl font-semibold text-center md:pt-10 md:text-5xl'>
+          Smaller Projects
+        </h3>
+        <!-- Smaller Projects -->
+        <div class='flex flex-row flex-wrap justify-center gap-3 pt-2 md:pt-10 md:gap-6' id="smallProjectsWrapper">
+          <div class='w-5/12 md:w-2/12' id="AdminDash">
+            <div class='w-full'>
+              <img
+                src="../assets/AdminDash.png"
+                class='w-full rounded-md shadow-outline aspect-square md:rounded-lg ring-[#00aeff] ring-2'
+                alt='projectImage'
+              />
+            </div>
+            <h3 class='pt-2 text-lg text-center md:text-xl'>Admin Dashboard</h3>
+          </div> 
+          <div class='w-5/12 md:w-2/12' id='Calc'>
+            <div class='w-full'>
+              <img
+                src="../assets/Calc.png"
+                class='w-full rounded-md shadow-outline aspect-square md:rounded-lg ring-[#00aeff] ring-2'
+                alt='projectImage'
+              />
+            </div>
+            <h3 class='pt-2 text-lg text-center md:text-xl'>Calculator</h3>
+          </div> 
+          <div class='w-5/12 md:w-2/12' id="Etch">
+            <div class='w-full'>
+              <img
+                src="../assets/Etch.png"
+                class='w-full rounded-md shadow-outline aspect-square md:rounded-lg ring-[#00aeff] ring-2'
+                alt='projectImage'
+              />
+            </div>
+            <h3 class='pt-2 text-lg text-center md:text-xl'>Etch-a-Sketch</h3>
+          </div> 
+          <div class='w-5/12 md:w-2/12' id="Library">
+            <div class='w-full'>
+              <img
+                src="../assets/booklib.png"
+                class='w-full rounded-md shadow-outline aspect-square md:rounded-lg ring-[#00aeff] ring-2'
+                alt='projectImage'
+              />
+            </div>
+            <h3 class='pt-2 text-lg text-center md:text-xl'>Library</h3>
+          </div> 
+          <div class='w-5/12 md:w-2/12' id="RPS">
+            <div class='w-full'>
+              <img
+                src="../assets/RPS.png"
+                class='w-full rounded-md shadow-outline aspect-square md:rounded-lg ring-[#00aeff] ring-2'
+                alt='projectImage'
+              />
+            </div>
+            <h3 class='pt-2 text-lg text-center md:text-xl'>Rock-Paper-Scissors</h3>
+          </div> 
+          <div class='w-5/12 md:w-2/12' id="TTT">
+            <div class='w-full'>
+              <img
+                src="../assets/tictactoe.png"
+                class='w-full rounded-md shadow-outline aspect-square md:rounded-lg ring-[#00aeff] ring-2'
+                alt='projectImage'
+              />
+            </div>
+            <h3 class='pt-2 text-lg text-center md:text-xl'>Tic-Tac-Toe</h3>
+          </div> 
+          <div class='w-5/12 md:w-2/12' id="Todo">
+            <div class='w-full'>
+              <img
+                src="../assets/todo.jpg"
+                class='w-full rounded-md shadow-outline aspect-square md:rounded-lg ring-[#00aeff] ring-2'
+                alt='projectImage'
+              />
+            </div>
+            <h3 class='pt-2 text-lg text-center md:text-xl'>To-Do App</h3>
+          </div> 
+        </div>
+        <!-- Small Project Modal -->
+        <!-- <div class='fixed top-0 bottom-0 z-30 flex justify-center w-screen px-5 pt-8'>
+          <div class='fixed top-0 bottom-0 w-screen -z-10 bg-neutral-800'></div>
+          <p class='fixed hover:ring-2 hover:ring-[#00aeff] top-0 right-0 flex items-center justify-center w-6 m-2 antialiased text-center text-[#00aeff] bg-white rounded-full md:text-2xl aspect-square md:w-10'></p>
+          <div class='flex flex-col items-center w-screen gap-10 md:scale-150 md:flex-row md:max-w-2xl'>
+            <div class='flex flex-col items-center w-full gap-5 p-1 overflow-y-auto basis-0 aspect-square grow rounded-xl h-fit'>
+              <img
+                class='h-full aspect-square rounded-xl ring-[#00aeff] ring-2'
+                src="../"
+                alt='ProjectImage'
+              />
+            </div>
+            <div class='overflow-y-auto basis-0 grow'>
+              <h3 class='p-2 text-xl font-bold text-center'></h3>
+              <p class=''></p>
+              <h4 class='p-2 text-center'>Technologies Used</h4>
+              <ul class='p-2 text-center'>
+                <li class='italic'></li>
+              </ul>
+              <div class='flex flex-row justify-center pt-2 mb-2 overflow-hidden h-14 gap-x-2'>
+                <a href="" target='_b' class='h-full'>
+                  <button class='h-full'>Visit Website</button>
+                </a>
+                <a href="" target='_b' class='h-full'>
+                  <button class='h-full p-0 px-2'>
+                    <img src="../" alt='zeba' class='h-2/3 aspect-square' />
+                  </button>
+                </a>
+              </div>
+            </div>
+        </div> -->
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

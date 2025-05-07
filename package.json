@@ -1,0 +1,28 @@
+{
+  "name": "vanila_portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JustasGecevicius/vanila_porfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JustasGecevicius/vanila_porfolio/issues"
+  },
+  "homepage": "https://github.com/JustasGecevicius/vanila_porfolio#readme",
+  "dependencies": {
+    "firebase": "^10.13.1",
+    "tailwindcss": "^3.4.10"
+  },
+  "devDependencies": {
+    "webpack": "^5.94.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
